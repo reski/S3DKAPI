@@ -1,0 +1,1052 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Sensus3d/sensus3dplugin/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.AneurysimDeformer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.AneurysimDeformer.html",
+          "hash": "rvby+5CcP9zGADiRaStFqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.ClipArm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.ClipArm.html",
+          "hash": "RFFVACAgdsto+HL4+pc2bQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.ClipDeformer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.ClipDeformer.html",
+          "hash": "OtUF+CdaBP0t2dG8QQAYhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Fluids.CameraFluidRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Fluids.CameraFluidRenderer.html",
+          "hash": "zpR8bUDVDz8FoiZ/G/ElGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Fluids.Fluid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Fluids.Fluid.html",
+          "hash": "tshZDHaF+4eye4fGPIxVqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Fluids.FluidEmitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Fluids.FluidEmitter.html",
+          "hash": "yotrPHHnbXEdTDopDLT1mA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Fluids.Particle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Fluids.Particle.html",
+          "hash": "+RcFiUN7MoTQbl/xNfK0og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Fluids.SuctionFluid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Fluids.SuctionFluid.html",
+          "hash": "ctZeY3Aasaamz2dMclrLkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Fluids.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Fluids.html",
+          "hash": "iUn6h1BEBA24BoDCuI/tsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.CombinedTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.CombinedTool.html",
+          "hash": "89MnKo6xiZdz+Bmw80XhVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.DrillTool.DrillBoneStrength.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.DrillTool.DrillBoneStrength.html",
+          "hash": "MbpUKB9lTKc2mkI+I1XvcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.DrillTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.DrillTool.html",
+          "hash": "TudXuNeynWGWJ0GjZIBo/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.HapticCursor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.HapticCursor.html",
+          "hash": "Yn6w2GoIEySl4H8shL81lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.HapticTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.HapticTool.html",
+          "hash": "6UumWDmRfQ9pbdTcUmNBmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.HapticUIManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.HapticUIManager.html",
+          "hash": "WlYkWCvGToYPbWj6U1Vo+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.HapticsManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.HapticsManager.html",
+          "hash": "TTgh3F1jMJuKPrz0wOkavw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.MCDrillToolChunk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.MCDrillToolChunk.html",
+          "hash": "ChrC/b7Ph5+TBDcdtyE8iA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.MovingHapticsForceToggle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.MovingHapticsForceToggle.html",
+          "hash": "kKnfSvUT/31M5YFmgjHTAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.OneAxisDrillTool.DrillDir.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.OneAxisDrillTool.DrillDir.html",
+          "hash": "NM5G4BJ3eAmOWLDRh54z9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.OneAxisDrillTool.DrillInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.OneAxisDrillTool.DrillInfo.html",
+          "hash": "EfvQ8Z39rPb2IQpfmff7vA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.OneAxisDrillTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.OneAxisDrillTool.html",
+          "hash": "WLzhI4QwZWZRX4pM/gAGGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.PopTool.OnPopIn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.PopTool.OnPopIn.html",
+          "hash": "fzmvxh71wxhQDZLiuiwY5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.PopTool.OnPopOut.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.PopTool.OnPopOut.html",
+          "hash": "4gvjnUiihrEoQUQxUYmAWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.PopTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.PopTool.html",
+          "hash": "HbUV0wDpXFxMm0Y4omjYsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.SolidMaterial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.SolidMaterial.html",
+          "hash": "r3X5x/YDS03GI/o/bs+yqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.ToolManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.ToolManager.html",
+          "hash": "JDw+FQ7bbMGVb/q2YnNL3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.Vibration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.Vibration.html",
+          "hash": "4w6hglgX/k7mO17yOR8Phg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.WorkspaceTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.WorkspaceTrigger.html",
+          "hash": "5wwkL5PWJR7l8/hYeX8ttw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Haptics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Haptics.html",
+          "hash": "mLi1Ws2ihmOFbdNQDTm/tg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.MeshEffects.MeshDeformer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.MeshEffects.MeshDeformer.html",
+          "hash": "5nGwc9AMmTk2SO+cQz4OAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.MeshEffects.MeshDeformerObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.MeshEffects.MeshDeformerObject.html",
+          "hash": "W21LJTaqm4JMdIcGfqCKWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.MeshEffects.ObjectDeformer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.MeshEffects.ObjectDeformer.html",
+          "hash": "vDnR5la5ncMhBJ8EwuRJhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.MeshEffects.PopThroughMesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.MeshEffects.PopThroughMesh.html",
+          "hash": "/gg6Pcp97eLvju1XzVpHaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.MeshEffects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.MeshEffects.html",
+          "hash": "q5kHCq5lGuLoJjiOOTeTSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Sensus3DPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Sensus3DPlugin.html",
+          "hash": "rqLK+4MsIynzwgs2jzEaPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.BaseDao.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.BaseDao.html",
+          "hash": "3QgYqEupJATCCOp2XELVkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.BreastImplantSurgicalScore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.BreastImplantSurgicalScore.html",
+          "hash": "m5xeFRzKJ43cVkKQyZ/FJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.JsonHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.JsonHelper.html",
+          "hash": "TKob5zbd6njTXufes0ff6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.PreSurgicalScore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.PreSurgicalScore.html",
+          "hash": "IGHug1dOtzcxy5uQvPeboA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.ScoreBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.ScoreBase.html",
+          "hash": "9+B7UHgMbyfvoBDtsqwfXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.ScoreDao.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.ScoreDao.html",
+          "hash": "uWCeZt9NpVLAnEOemI9www=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.ScoreUploader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.ScoreUploader.html",
+          "hash": "rWdqHL02mfU8YAoynKB1ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.Simulation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.Simulation.html",
+          "hash": "JZ/G2xCTJusOApH6PmkRLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.SimulationDao.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.SimulationDao.html",
+          "hash": "dQn7IMbNfqzBLVnIT3NDfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.SimulationScenario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.SimulationScenario.html",
+          "hash": "GV9+PAcX5t/kOogz4SzhAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.SimulationScore-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.SimulationScore-1.html",
+          "hash": "p1rKv9ZYDlwRUHg31SkOJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.SimulationScoreBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.SimulationScoreBase.html",
+          "hash": "hDJYMeQ7uyoTiNu2twmQIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.SimulationScorePreSurgical.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.SimulationScorePreSurgical.html",
+          "hash": "xMxRB6WOv+VgF1546C6HyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.SimulationScoreSurgical.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.SimulationScoreSurgical.html",
+          "hash": "wjHT8VzmYeb2TPaY0CVWzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.SimulatorData-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.SimulatorData-1.html",
+          "hash": "5l9FN0W1vjaTrJGj0bIZrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.SimulatorRequestHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.SimulatorRequestHandler.html",
+          "hash": "1I9K4nUwDDl9fX8cc/DDjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.SimulatorUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.SimulatorUser.html",
+          "hash": "87d87XoX3CfNYzzTrrqSow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.UserDao.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.UserDao.html",
+          "hash": "2Caq1WFLyRwZINjvYgQGzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.UserSessionTokens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.UserSessionTokens.html",
+          "hash": "XZwXM61f42QCbvuOSFbfkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.UserSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.UserSystem.html",
+          "hash": "al3z46LVKe5gZqrMWSkrug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Server.html",
+          "hash": "VarQJ7pgG4KdP4+0uAqcqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Utility.Container-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Utility.Container-1.html",
+          "hash": "mKQ3IR+X/CMIqfv7GfjO3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Utility.Converter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Utility.Converter.html",
+          "hash": "pxY7v9HX19WZT0dknor4PA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Utility.FreeMovementCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Utility.FreeMovementCamera.html",
+          "hash": "o/NbuWYSWNWCS71qJ/Scog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Utility.NormalSolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Utility.NormalSolver.html",
+          "hash": "XLEt5o1+9XIw5QmqeWqAng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Utility.Tuple-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Utility.Tuple-2.html",
+          "hash": "/kXv1EmK3oWW9bDtjz90jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Utility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Utility.html",
+          "hash": "xI4v9bMxw61fz/UtnkBbzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Volumes.Chunk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Volumes.Chunk.html",
+          "hash": "NmxRkm7YG9VFHnTwFJedXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Volumes.DicomImporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Volumes.DicomImporter.html",
+          "hash": "h6ZsLvNcb1YfSHgwkb6Fuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Volumes.DrillPiece.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Volumes.DrillPiece.html",
+          "hash": "yNOHgGuwo6ZFveHK23Vk8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Volumes.Importer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Volumes.Importer.html",
+          "hash": "KNx0GfQevnzGyKU0N7quQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Volumes.MarchingChunks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Volumes.MarchingChunks.html",
+          "hash": "KAfrrP7t5vkTuURIGdP29A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Volumes.MeshImporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Volumes.MeshImporter.html",
+          "hash": "0l8L6Nd7Np18b6JVql/IlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Volumes.MeshMerger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Volumes.MeshMerger.html",
+          "hash": "9y0uzNst89a3Z2HpofJBug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Volumes.NeighbourChunk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Volumes.NeighbourChunk.html",
+          "hash": "A7QbpQnyAdw/7hBh1T6fQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Volumes.NeighboursManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Volumes.NeighboursManager.html",
+          "hash": "ObsQhkCApK4nHNT8GZSEAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Volumes.RawBits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Volumes.RawBits.html",
+          "hash": "KOBq5aTzYvPF8lNOYhjfOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Volumes.RawImporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Volumes.RawImporter.html",
+          "hash": "GtV/oc25S8PI3gNE5lRV2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Volumes.SphereImporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Volumes.SphereImporter.html",
+          "hash": "ICr3tLEw81t3gWh5ujYX4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Volumes.Voxelizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Volumes.Voxelizer.html",
+          "hash": "DXLA1rXTK/BW81GD+rEQYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.Volumes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.Volumes.html",
+          "hash": "MjB1sNiBl66LOR937Kq0BA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/S3DK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/S3DK.html",
+          "hash": "cFUdrNoHTv/lgNOFjKaHHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "Qdyd3NX3AbLI4GPPt4r04g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "DaYuh66YmYTnEzvaL72rrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "QTVXy2hKO+RzqRRya7NmNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "aTTm1GYNstCCu+HxTYOW9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "k+/dkjFuwAVS32HduMpmBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 77,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

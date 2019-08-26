@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace S3DK.Haptics
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace S3DK.Haptics
+   ">
+    <meta name="generator" content="docfx 2.43.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="S3DK.Haptics">
+  
+  <h1 id="S3DK_Haptics" data-uid="S3DK.Haptics" class="text-break">Namespace S3DK.Haptics
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="S3DK.Haptics.CombinedTool.html">CombinedTool</a></h4>
+      <section><p>Used When you want Active tool to be able to perform 2 functionalities at a time.E.g Poptool and MCDrillTool.</p>
+</section>
+      <h4><a class="xref" href="S3DK.Haptics.DrillTool.html">DrillTool</a></h4>
+      <section></section>
+      <h4><a class="xref" href="S3DK.Haptics.HapticCursor.html">HapticCursor</a></h4>
+      <section><p>Script used in the cursor controled by haptic device, It is recommended to use Prefabs provided by S3DK :</p>
+<ul>
+<li><a href="https://sites.google.com/site/sensus3dwiki/s3dk-prefabs/haptic-device-prefabs/static-haptic-device"> Static Haptic Device</a></li>
+<li><a href="https://sites.google.com/site/sensus3dwiki/s3dk-prefabs/haptic-device-prefabs/first"> First Person Haptics</a></li>
+<li><a href="https://sites.google.com/site/sensus3dwiki/s3dk-prefabs/haptic-device-prefabs/first-person-haptics-oculus"> First Person Haptic Oculus</a></li>
+<li><a href="https://sites.google.com/site/sensus3dwiki/s3dk-prefabs/haptic-device-prefabs/free-moving-haptics"> Free Moving Haptics</a></li>
+</ul>
+</section>
+      <h4><a class="xref" href="S3DK.Haptics.HapticsManager.html">HapticsManager</a></h4>
+      <section><p>Singleton Script used to Manage Haptic Devices in the scene, it is recommended to the Prefab provided by S3DK, which also includes HapticUIManager :</p>
+<ul>
+<li><a href="https://sites.google.com/site/sensus3dwiki/s3dkmanager">S3DKManager</a></li>
+</ul>
+</section>
+      <h4><a class="xref" href="S3DK.Haptics.HapticTool.html">HapticTool</a></h4>
+      <section><p>Base Class for any tool we want the haptic device to Manipulate.
+One you have your implementation of Haptic tool, you should drag it to the <a href=" https://sites.google.com/site/sensus3dwiki/home/haptic-device/cursor">Cursor's</a> Tool Manager list.  Any Object you want your cursor to control and be able to change through the Tool Manager must inherit from Haptic Tool.</p>
+</section>
+      <h4><a class="xref" href="S3DK.Haptics.HapticUIManager.html">HapticUIManager</a></h4>
+      <section></section>
+      <h4><a class="xref" href="S3DK.Haptics.MCDrillToolChunk.html">MCDrillToolChunk</a></h4>
+      <section><p>Tool used for drilling MarchingChunks Generated Volume using first button of Haptic Device.Uses 1 or more DrillPiece</p>
+</section>
+      <h4><a class="xref" href="S3DK.Haptics.MovingHapticsForceToggle.html">MovingHapticsForceToggle</a></h4>
+      <section><p>Script used for toggling the hapticCoefficient while player is moving in case of dragging, it will toggle between forceWhenMoving and hapticcoefficient provided in HapticCursor.</p>
+</section>
+      <h4><a class="xref" href="S3DK.Haptics.OneAxisDrillTool.html">OneAxisDrillTool</a></h4>
+      <section><p>Tool used for Drilling in a single Axis.</p>
+</section>
+      <h4><a class="xref" href="S3DK.Haptics.PopTool.html">PopTool</a></h4>
+      <section><p>Tool used for generating popthrough effect on HapticDevice, an example of a Prefab that utilizes this script in S3DK is <a href="https://sites.google.com/site/sensus3dwiki/s3dk-prefabs/needle"> Needle </a></p>
+</section>
+      <h4><a class="xref" href="S3DK.Haptics.SolidMaterial.html">SolidMaterial</a></h4>
+      <section><p>Script that should be added to Gameobjects that have friction.</p>
+</section>
+      <h4><a class="xref" href="S3DK.Haptics.ToolManager.html">ToolManager</a></h4>
+      <section></section>
+      <h4><a class="xref" href="S3DK.Haptics.Vibration.html">Vibration</a></h4>
+      <section><p>Script that enables vibration when pressing Button1 on haptic device, or assigned button.</p>
+</section>
+      <h4><a class="xref" href="S3DK.Haptics.WorkspaceTrigger.html">WorkspaceTrigger</a></h4>
+      <section></section>
+    <h3 id="structs">Structs
+  </h3>
+      <h4><a class="xref" href="S3DK.Haptics.OneAxisDrillTool.DrillInfo.html">OneAxisDrillTool.DrillInfo</a></h4>
+      <section></section>
+    <h3 id="enums">Enums
+  </h3>
+      <h4><a class="xref" href="S3DK.Haptics.DrillTool.DrillBoneStrength.html">DrillTool.DrillBoneStrength</a></h4>
+      <section></section>
+      <h4><a class="xref" href="S3DK.Haptics.OneAxisDrillTool.DrillDir.html">OneAxisDrillTool.DrillDir</a></h4>
+      <section></section>
+    <h3 id="delegates">Delegates
+  </h3>
+      <h4><a class="xref" href="S3DK.Haptics.PopTool.OnPopIn.html">PopTool.OnPopIn</a></h4>
+      <section></section>
+      <h4><a class="xref" href="S3DK.Haptics.PopTool.OnPopOut.html">PopTool.OnPopOut</a></h4>
+      <section></section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

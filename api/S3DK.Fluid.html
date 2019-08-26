@@ -1,0 +1,390 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Fluid
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Fluid
+   ">
+    <meta name="generator" content="docfx 2.43.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="S3DK.Fluid">
+  
+  
+  <h1 id="S3DK_Fluid" data-uid="S3DK.Fluid" class="text-break">Class Fluid
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">Fluid</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="S3DK.html">S3DK</a></h6>
+  <h6><strong>Assembly</strong>: S3DK.dll</h6>
+  <h5 id="S3DK_Fluid_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Fluid : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/sensus3d/sensus3dplugin/src/master/S3DKBuild/S3DK/Scripts/Fluids/Fluid.cs#lines-33">View Source</a>
+  </span>
+  <h4 id="S3DK_Fluid_m_cubeEdgeFlags" data-uid="S3DK.Fluid.m_cubeEdgeFlags">m_cubeEdgeFlags</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public ComputeBuffer m_cubeEdgeFlags</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.ComputeBuffer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/sensus3d/sensus3dplugin/src/master/S3DKBuild/S3DK/Scripts/Fluids/Fluid.cs#lines-23">View Source</a>
+  </span>
+  <h4 id="S3DK_Fluid_m_drawBuffer" data-uid="S3DK.Fluid.m_drawBuffer">m_drawBuffer</h4>
+  <div class="markdown level1 summary"><p>DrawBuffer material in which MarchingCubes is going to render the fluid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Material m_drawBuffer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Material</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/sensus3d/sensus3dplugin/src/master/S3DKBuild/S3DK/Scripts/Fluids/Fluid.cs#lines-31">View Source</a>
+  </span>
+  <h4 id="S3DK_Fluid_m_meshBuffer" data-uid="S3DK.Fluid.m_meshBuffer">m_meshBuffer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public ComputeBuffer m_meshBuffer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.ComputeBuffer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/sensus3d/sensus3dplugin/src/master/S3DKBuild/S3DK/Scripts/Fluids/Fluid.cs#lines-33">View Source</a>
+  </span>
+  <h4 id="S3DK_Fluid_m_triangleConnectionTable" data-uid="S3DK.Fluid.m_triangleConnectionTable">m_triangleConnectionTable</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public ComputeBuffer m_triangleConnectionTable</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.ComputeBuffer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/sensus3d/sensus3dplugin/src/master/S3DKBuild/S3DK/Scripts/Fluids/Fluid.cs#lines-35">View Source</a>
+  </span>
+  <h4 id="S3DK_Fluid_m_voxels" data-uid="S3DK.Fluid.m_voxels">m_voxels</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public ComputeBuffer m_voxels</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.ComputeBuffer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/sensus3d/sensus3dplugin/src/master/S3DKBuild/S3DK/Scripts/Fluids/Fluid.cs#lines-28">View Source</a>
+  </span>
+  <h4 id="S3DK_Fluid_maxParticles" data-uid="S3DK.Fluid.maxParticles">maxParticles</h4>
+  <div class="markdown level1 summary"><p>Maximum amount of particles accepted in this volume.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int maxParticles</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/sensus3d/sensus3dplugin/src/master/S3DKBuild/S3DK/Scripts/Fluids/Fluid.cs#lines-37">View Source</a>
+  </span>
+  <h4 id="S3DK_Fluid_particlesPos" data-uid="S3DK.Fluid.particlesPos">particlesPos</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public List&lt;Particle&gt; particlesPos</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="S3DK.Particle.html">Particle</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/sensus3d/sensus3dplugin/src/master/S3DKBuild/S3DK/Scripts/Fluids/Fluid.cs#lines-18">View Source</a>
+  </span>
+  <h4 id="S3DK_Fluid_target" data-uid="S3DK.Fluid.target">target</h4>
+  <div class="markdown level1 summary"><p>Target to use as isoValue in MarchingCubes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float target</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/sensus3d/sensus3dplugin/src/master/S3DKBuild/S3DK/Scripts/Fluids/Fluid.cs#lines-158">View Source</a>
+  </span>
+  <a id="S3DK_Fluid_CheckCleaning_" data-uid="S3DK.Fluid.CheckCleaning*"></a>
+  <h4 id="S3DK_Fluid_CheckCleaning" data-uid="S3DK.Fluid.CheckCleaning">CheckCleaning()</h4>
+  <div class="markdown level1 summary"><p>Whenever fluid is suctioned, you should check if the buffers need cleaning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CheckCleaning()</code></pre>
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/sensus3d/sensus3dplugin/src/master/S3DKBuild/S3DK/Scripts/Fluids/Fluid.cs#lines-136">View Source</a>
+  </span>
+  <a id="S3DK_Fluid_DrawParticles_" data-uid="S3DK.Fluid.DrawParticles*"></a>
+  <h4 id="S3DK_Fluid_DrawParticles" data-uid="S3DK.Fluid.DrawParticles">DrawParticles()</h4>
+  <div class="markdown level1 summary"><p>Draw the fluid on the camera.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DrawParticles()</code></pre>
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/sensus3d/sensus3dplugin/src/master/S3DKBuild/S3DK/Scripts/Fluids/Fluid.cs#lines-171">View Source</a>
+  </span>
+  <a id="S3DK_Fluid_TryStartRender_" data-uid="S3DK.Fluid.TryStartRender*"></a>
+  <h4 id="S3DK_Fluid_TryStartRender" data-uid="S3DK.Fluid.TryStartRender">TryStartRender()</h4>
+  <div class="markdown level1 summary"><p>Start rendering if ready.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TryStartRender()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://bitbucket.org/sensus3d/sensus3dplugin/src/master/S3DKBuild/S3DK/Scripts/Fluids/Fluid.cs#lines-13" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
